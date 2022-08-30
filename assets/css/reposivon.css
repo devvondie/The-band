@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width:46.25em) and (max-width:63.9375em)
+{
+    .contact-info{
+        font-size: 22px;
+    }
+    .text-end{
+        font-size: 18px;
+    }
+    #footer .fa{
+        letter-spacing: 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    .btn{
+        padding:15px 16px
+    }
+    #content .content_section {
+        padding: 64px 8px 112px;
+    }
+}
+@media (max-width:46.1875em)
+{
+    .col{
+        float: none;
+    }
+    #header{
+        overflow: hidden;    
+    }
+    #header .btn_search_icon{
+        display: none;
+    }
+    #header .btn-mobile-menu{
+        color: #fff;
+        line-height: 46px;
+        padding: 0 25px;
+        float: right;
+    }
+    #search-btn #mobile-menu{
+        display: block;
+    }
+    /* #header .btn-mobile-menu:hover{
+        color: black;
+        background-color: #fff;
+    } */
+    #nav{
+        display: block;
+    }
+    #nav>li{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav>li:hover>a,
+    #nav .subnav li:hover a{
+        background-color: #ccc;
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #757474;
+    }
+    #nav .subnav li a{
+        color: #fff;
+        padding: 5px 24px;
+
+    }
+    #nav>li{
+        padding: 1px 0px;
+    }
+    #header #search-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .member-list .col,
+    .member-list .row{
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content .member-item{
+        margin-bottom: 25px;
+    }
+    #content .member-name{
+        margin-bottom:-3px;
+    }
+    #content .member-avatar{
+            width: 60%;
+            max-height: 340px;
+    }
+
+    #tour .place-item{
+        float: none;
+        width: 100%;
+        margin: 15px 0;
+    }
+    #contact .contact-info,
+    #contact .contact-form{
+        width: 100%;
+        padding: 15px 0;
+    }
+    #contact .name{
+        width: 100%;
+    }
+    #contact .email{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .s-full-width{
+        width: 100%;
+        height: 40px;
+    }
+    #contact .contact-info,
+    #contact .contact-form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contact .contact-info{
+        margin-bottom: 28px;
+    }
+    .text-end{
+        font-size:20px;
+    }
+    #footer .fa{
+        letter-spacing: 14px;
+    }
+}
