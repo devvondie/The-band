@@ -427,7 +427,7 @@ body{
     width: 900px;
     min-height: 200px;
     position: relative;
-    margin: 0 16px;
+    margin: 0 10px;
     animation: modalFadeIn ease 0.8s;
 }
 .model .model-close{
